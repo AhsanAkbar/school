@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Registration</title>
+</head>
+
+<body class="register">
+  <div class="alert alert-light" role="alert">
+    Note: Your child age must be under 7 to get addmission
+  </div>
+  <br>
+  <h3 style="color: chocolate ; text-align: center;"> Please Submit this form for addmission of your child, best regards
+    <b> KMAF</b></h3>
+  <hr>
+  <form action="registrationsuccess.html" method="GET" id="registerchild">
+    <fieldset style="margin: 5px; border: 3px solid grey;">
+      <legend>&nbsp;Parents Information</legend>
+      <div class="form-row">
+        <div class="col-3 ml-4 mb-3 col-sm-4 col-md-6 col-lg-6">
+          <label for="FName">FatherName:</label>
+          <input type="text" class="form-control" placeholder="Father Name Here" required maxlength="20">
+        </div>
+        <div class="col-3 ml-4 mb-3 col-sm-3 col-md-6 col-lg-6">
+          <label for="LName">MotherName:</label>
+          <input type="text" class="form-control" placeholder="Mother Name Here" required maxlength="20">
+        </div>
+        <div class="col-3 ml-4 mb-3">
+          <label for="Email">Email:</label>
+          <input type="Email" class="form-control" placeholder="Any one parent Email Here">
+        </div>
+        <div class="col-3 ml-4 mt-3 mb-3 col-sm-4 col-md-4 col-lg-4">
+          <label for="Occupation">Father's Occupation:</label>
+          <input type="text" class="form-control" placeholder="Occupation Here" required maxlength="25">
+        </div>
+        <div class="col-3 ml-4 mt-3 mb-3 col-sm-4 col-md-4 col-lg-4">
+          <label for="Occupation">Mother Tongue</label>
+          <input type="text" class="form-control" placeholder="Family Mother Tongue Here" required maxlength="25">
+        </div><br>
+    </fieldset>
+    <fieldset style="margin: 5px; border: 3px solid grey;">
+      <legend>&nbsp;Child Information</legend>
+      <div class="ml-4 mt-3 mb-3">
+        <label for="ChildNname">Child Full Name:</label>
+        <input type="text" class="form-control" placeholder="ChildName Here" required maxlength="20">
+      </div>
+      <label for="gender" class="ml-4 mt-3 mb-3">GENDER</label>
+      <div class="form-check form-check-inline m-3">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">Male</label>
+      </div>
+
+      <div class="form-check form-check-inline m-3">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Female</label>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1" class="ml-4 mt-3 mb-3">AGE</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>1 Year Old</option>
+          <option>2 Year Old</option>
+          <option>3 Year Old</option>
+          <option>4 Year Old</option>
+          <option>5 Year Old</option>
+          <option>6 Year Old</option>
+        </select>
+      </div>
+      <label for="gender" class="ml-4 mt-3 mb-3">Studied Somewhere Before</label>
+      <div class="form-check form-check-inline m-3">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">Yes</label>
+      </div>
+
+      <div class="form-check form-check-inline m-3">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">No</label>
+      </div>
+      <div class="ml-4 mt-3 mb-3">
+        <label for="ChildNname">Studied Somewhere Before:</label>
+        <input type="text" class="form-control" placeholder="Name of School" maxlength="20">
+      </div>
+      <div class="ml-4 mt-3 mb-3">
+        <label for="Wantaddmission">Want addmission In:</label>
+        <input type="number" class="form-control" placeholder="class" min="1" max="6">
+      </div>
+    </fieldset>
+    </div>
+    <button type="submit" value="submit" form="registerchild" class="btn btn-dark col col-sm-6 col-md-8 col-lg-11 ml-4 mr-4"
+      style="margin: 4px 4px 2px 4px;">Submit</button>
+    <button type="reset" class="btn btn-dark col col-sm-6 col-md-8 col-lg-11 ml-4 mr-4"
+      style="margin: 4px 4px 2px 4px;">Reset</button>
+  </form>
+</body>
+
+</html>

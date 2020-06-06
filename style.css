@@ -1,0 +1,323 @@
+*
+{
+    font-family: 'Chelsea Market', cursive;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* navbar stylings */
+.schoolicon
+{
+    color: #E6BE0B;
+    text-shadow: 2px 3px 2px rgb(255, 239, 99);
+}
+.nav-link,.btn-register
+{
+    color: #a98274 !important;
+    border:none;
+    outline: none;
+}
+.nav-link:hover
+{
+    color: #EEC409 !important;
+    transition: 0.3s ease-in !important;
+    text-transform: uppercase !important;
+}
+.btn-register:hover
+{
+    color: #EEC409 !important;
+    transition: 0.3s ease-in !important;
+    text-transform: uppercase !important;
+}
+.btn-outline-success
+{
+    color:#e0d2cd !important;
+    outline: none !important;
+    border: none !important;
+}
+.btn-outline-success:hover
+{
+    background-color:#ebb5a2 !important;
+    color: #fff !important;
+    transition: 0.3s ease-in !important;
+    text-transform: uppercase !important;
+}
+.dropdown-item
+{
+    color: #a98274 !important; 
+}
+.dropdown-item:hover
+{
+    color: #EEC409 !important;
+    transition: 0.2s ease-in-out;
+    text-transform: uppercase !important;
+}
+.fa-school
+{
+    font-size: 34px;
+    padding: 10px;
+}
+/* crousel styling */
+
+.carousel-item
+{
+    height: 91vh !important;
+}
+/* crousel k bd wali heading */
+.titleheading
+{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: #a98274;
+}
+/* titleheading k bd wali kaam */
+.colwrappertitles
+{
+    width: 100%;
+}
+.headingherotilte
+{
+    margin: 100px 0px 100px 50px;
+    display: flex;
+    float: left;
+    width: 65%;
+    text-justify: auto;
+    background-color: lightgreen;
+    background-attachment: fixed;
+
+}
+.headingherotilte::after
+{
+    content:"";
+    display: table;
+    clear: both;
+}
+.col1image
+{
+    display: flex;
+    float: left;
+    margin: 50px auto 100px 200px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-attachment: fixed;
+}
+.headingherotilte1
+{
+    margin: 50px 40px 100px 0px;
+    display: flex;
+    float: right;
+    width: 50%;
+    text-justify: auto;
+    background-color: lightblue;
+    background-attachment: fixed;
+}
+.col2image
+{
+    display: flex;
+    float: left;
+    margin:auto auto 100px 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;   
+}
+.headingherotilte2
+{
+    margin: 150px 0px 100px -272px;
+    display: flex;
+    float: left;
+    width: 60%;
+    text-justify: auto;
+    background-color: lightgreen;
+    background-attachment: fixed;
+
+}
+.col3image
+{
+    display: flex;
+    float: right;
+    margin: 100px 50px 100px 100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-attachment: fixed;
+}
+.headingherotilte3
+{
+    margin: 100px -240px 100px 100px;
+    display: flex;
+    float: right;
+    width: 50%;
+    text-justify: auto;
+    background-color: lightblue;
+    background-attachment: fixed;
+}
+.col4image
+{
+    display: flex;
+    float: left;
+    margin:auto auto 100px 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; 
+}
+@media screen and (max-width:667px)
+{
+    .titleheading
+    {
+        margin-top:-320px ;
+    }
+    .headingherotilte
+    {
+        margin-top: 140px;
+        margin-left: 65px;
+    }
+    .col1image
+    {
+        position: relative;
+        right: 137px;
+    }
+    .headingherotilte1
+    {
+        margin-right: 100px;
+    }
+    .col2image
+    {
+        position: relative;
+        right: 60px;
+    }
+    .headingherotilte2
+    {
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+    .col3image
+    {
+        position: relative;
+        right: 20px;
+    }
+    .headingherotilte3
+    {
+        margin-top: 50px;
+        margin-right: 100px;
+    }
+    .col4image
+    {
+        position: relative;
+        right: 20px;
+        width: 200px;
+        height: 200px;
+    }
+}
+/* flying cap image */
+.graduationimage
+{
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+.maindiv
+{
+    position: absolute;
+    top: 2800px;
+    left: 20px;
+    right: 20px;
+    color: cornsilk;
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+    width: 700px;
+    text-align: center;
+
+}
+.title
+{
+    position: relative;
+}
+.headingbelowtitle
+{
+    position: relative;
+}
+.headingpara
+{
+    position: relative;
+}
+.fylingcapbtn
+{
+    border: none;
+    outline: 2px solid khaki;
+    background-color: rgba(0,0,0,0.2);
+    color: #EEC409;
+    margin: 5px;
+    padding: 5px;
+}
+/* top priorityies */
+
+.toppriority
+{
+    text-align: center;
+    color: #fbff00;
+    margin:30px auto 30px auto ;
+    text-decoration: underline;
+    text-decoration-color: burlywood;
+    line-height: 1.9;
+}
+.btn-primary
+{
+    background-color: #ebee4e;
+}
+.box-main
+{
+    border: 4px double wheat;
+    padding: 10px 0px 0px 0px;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.box-main:hover{
+    border: 5px dotted wheat;
+}
+
+/* footer */
+
+.footer
+{
+    width: 100%;
+    height: 600px;
+    /* background-color: rgb(44, 43, 43); */
+    color: white;
+}
+.col1footer
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    float: left;
+    background-color: rgb(97, 92, 94);
+}
+hr
+{
+    border-top: 2px solid wheat;
+}
+.fab,.fas
+{
+    margin: 5px;
+    padding: 5px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 3px wheat;
+}
+.col1footer a
+{
+    color:inherit
+}
+/* form styling */
+.register{
+background: linear-gradient(30deg, #e3ffe7 35%, #d9e7ff 75%);
+}
+.btn
+{
+    text-align: center;
+}
